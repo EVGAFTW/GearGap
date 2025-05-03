@@ -1,0 +1,153 @@
+<Project ToolsVersion="4.0" DefaultTargets="Deploy" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>GearGap</Name>
+    <ProjectGuid>c530683b-16c6-4828-8ea3-77215fc422b5</ProjectGuid>
+    <AssemblyName>GearGap</AssemblyName>
+    <RootNamespace>GearGap</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="BiS_DeathKnight_Blood.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_DeathKnight_Frost.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_DeathKnight_Unholy.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_DemonHunter_Havoc.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_DemonHunter_Vengeance.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_Druid_Balance.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_Druid_Feral.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_Druid_Guardian.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_Druid_Restoration.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_Evoker_Augmentation.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_Evoker_Devastation.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_Evoker_Preservation.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_Hunter_BeastMastery.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_Hunter_Marksmanship.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_Hunter_Survival.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_Mage_Arcane.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_Mage_Fire.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_Mage_Frost.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_Monk_Brewmaster.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_Monk_Mistweaver.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_Monk_Windwalker.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_Paladin_Holy.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_Paladin_Protection.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_Paladin_Retribution.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_Priest_Discipline.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_Priest_Holy.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_Priest_Shadow.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_Rogue_Assassination.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_Rogue_Outlaw.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_Rogue_Subtlety.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_Shaman_Elemental.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_Shaman_Enhancement.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_Shaman_Restoration.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_Warlock_Affliction.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_Warlock_Demonology.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_Warlock_Destruction.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_Warrior_Arms.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_Warrior_Fury.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="BiS_Warrior_Protection.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="GearGap.lua">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="GearGap.toc">
+      <SubType>TableOfContents</SubType>
+    </Content>
+    <Content Include="GearGap.xml">
+      <SubType>Frame</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data" />
+  </ItemGroup>
+  <Import Project="$(DevEnvDir)\Extensions\Tools\MSBuild\AddonStudio\Wow\3.0\WowAddonStudio.targets" />
+  <!--
+  To modify your build process, add your task inside one of the targets below and uncomment it.
+  <Target Name="BeforeClean"></Target>
+  <Target Name="AfterClean"></Target>
+  <Target Name="BeforeRebuild"></Target>
+  <Target Name="AfterRebuild"></Target>
+  <Target Name="BeforeDeploy"></Target>
+  <Target Name="AfterDeploy"></Target>
+  -->
+</Project>

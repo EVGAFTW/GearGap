@@ -1,0 +1,8 @@
+## Interface: 110000
+## Title: GearGap
+## Notes: Displays BiS gear comparison for your character.
+## Author: Russell
+## Version: 2.9
+## SavedVariables: GearGapBiS
+
+GearGap.lua
